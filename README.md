@@ -21,10 +21,14 @@ The Application Runs on localhost:3000
 
 ### npm run test
   Runs below 4 test:
-  #### -Show Six Dog.
+  #### -Show six dogs.
+  Check is main screen contains 6 image
   #### -Add to favorites button.
+  Check images has "Add to Favorite" button
   #### -Exist in favorites.
-  #### -Remove from favorites Button.
+  Check After adding to favorites, is it exists in favorites
+  #### -Remove from favorites button.
+  Check is "Remove from Favorites" button exists for favorites
 
 
 
@@ -47,4 +51,10 @@ The Application Runs on localhost:3000
   #### 8.FavoritesContext
         Reads and writes favorites to local storage
    
-       
+   
+### URLS
+Application has 2 urls. They are;
+ #### 1- /
+ Shows 6 dogs images to add favorite
+ #### 2- /favorites
+ Shows current favorites list
