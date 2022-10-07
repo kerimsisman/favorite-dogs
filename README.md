@@ -1,4 +1,4 @@
-# Favorite Dos
+# Favorite Dogs
 Select your favorite dogs, if you don't like then load six more.
 
 
