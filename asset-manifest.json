@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/favorite-dogs/static/css/main.d9727fba.css",
-    "main.js": "/favorite-dogs/static/js/main.35b4f798.js",
-    "index.html": "/favorite-dogs/index.html",
-    "main.d9727fba.css.map": "/favorite-dogs/static/css/main.d9727fba.css.map",
-    "main.35b4f798.js.map": "/favorite-dogs/static/js/main.35b4f798.js.map"
+    "main.css": "/favorite-dogs/index.html/static/css/main.d9727fba.css",
+    "main.js": "/favorite-dogs/index.html/static/js/main.35b4f798.js",
+    "index.html": "/favorite-dogs/index.html/index.html",
+    "main.d9727fba.css.map": "/favorite-dogs/index.html/static/css/main.d9727fba.css.map",
+    "main.35b4f798.js.map": "/favorite-dogs/index.html/static/js/main.35b4f798.js.map"
   },
   "entrypoints": [
     "static/css/main.d9727fba.css",
