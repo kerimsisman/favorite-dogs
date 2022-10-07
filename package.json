@@ -1,8 +1,8 @@
 {
-  "homepage":"http://kerimsisman.github.io/favorite-dogs",
+  "homepage":"https://kerimsisman.github.io/favorite-dogs/index.html",
   "name": "favorite-dogs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^13.5.0",
