@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Favorite Dos
+Select your favorite dogs, if you don't like then load six more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live Application URL
+The Application is deployed in https://kerimsisman.github.io/favorite-dogs
 
-In the project directory, you can run:
+Click on the link to see the application
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Cloning and Running the Application in local
+Clone the project into local
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-### `npm test`
+### npm install
+In order to run the application Type the following command
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### npm start
+The Application Runs on localhost:3000
 
-### `npm run build`
+### npm run test
+  Runs below 4 test:
+  #### -Show Six Dog.
+  #### -Add to favorites button.
+  #### -Exist in favorites.
+  #### -Remove from favorites Button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Application design
+### Components
+  #### 1.DogItem Component:
+        This Componenet displays individual dog images and button.
+  #### 2.Card Component
+        This Componenet gives a card view to DogItem.
+  #### 3.DogList Component
+        Create a list under <ul> tag by using DogItem
+  #### 4.MainNavigation Component
+        Displays header menu. Includes All Dogs/Favorites/ Load Next 6 >> buttons. The header is sticky   
+  #### 5.AllDogs
+        Reds data from context send this data to DogList component. Read data from  RandomDataContext
+  #### 6.Favorites
+        Reds data from context send this data to DogList component to view as favorites. Read data from  FavoritesContext
+  #### 7.RandomDataContext
+        Reads data from https://random.dog/woof.json . Read 6 suitable image from address, if response is not an image triew and other request.
+  #### 8.FavoritesContext
+        Reads and writes favorites to local storage
+   
+       
