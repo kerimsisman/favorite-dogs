@@ -1,10 +1,10 @@
 import { render, screen, cleanup } from "@testing-library/react";
 
 import React from "react";
-import FavoritesContext from "../store/favorites-context";
-import RandomDataContext from "../store/random-data-context";
-import FavoritesPage from "../pages/Favorites";
-import AllDogs from "../pages/AllDogs";
+import FavoritesContext from "./store/favorites-context";
+import RandomDataContext from "./store/random-data-context";
+import FavoritesPage from "./pages/Favorites";
+import AllDogs from "./pages/AllDogs";
 
 const randomDtaContext = {
   randomData: [
